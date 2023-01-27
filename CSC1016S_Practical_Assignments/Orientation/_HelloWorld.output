@@ -1,0 +1,29 @@
+ 
+  ----jGRASP exec: java Hw
+ Hello World
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java HelloWorld
+ Hello World
+ 
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java HelloWorld
+ Error: Could not find or load main class HelloWorld
+ Caused by: java.lang.NoClassDefFoundError: helloworld (wrong name: HelloWorld)
+ 
+  ----jGRASP wedge2: exit code for process is 1.
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java HelloWorld
+ Error: Could not find or load main class HelloWorld
+ Caused by: java.lang.NoClassDefFoundError: helloworld (wrong name: HelloWorld)
+ 
+  ----jGRASP wedge2: exit code for process is 1.
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java helloworld
+ Hello World
+ 
+  ----jGRASP: operation complete.
+ 

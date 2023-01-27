@@ -1,0 +1,175 @@
+#A program that translate sentences between English and Pig Latin 
+#Manare Rammutla
+#15 April 2020
+vowel = 'a','e','i','o','u'
+def to_pig_latin(userInp):
+    count = 0
+    result = ''
+    words = userInp.split()
+    for  word in words:
+        count = 0
+        if word[0].lower() in vowel:
+            result += word+'way'+' '
+                      
+        else:
+            count = 0
+            for char in word:
+                if char.lower() not in vowel:
+                    count+=1
+                    continue
+                else:
+                    break
+            result += word[count:]+'a' + word[:count]+'ay'+' '
+              
+    return result
+      
+def to_english(userInp2):
+    result2=''
+    words = userInp2.split()
+    for  word in words:
+        if word[-3::1]=='way':
+            end = word.find('way')
+            result2+= word[:end]+' '
+        else:
+            no_ay=word[:len(word)-2]
+            last_a = no_ay.split('a')[-1]
+            no_last_a = no_ay[:len(no_ay)-(len(last_a)+1)]
+            result2+= last_a + no_last_a +' '
+            
+    return result2 
+            
+            
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#A program that translate sentences between English and Pig Latin 
+#Manare Rammutla
+#15 April 2020
+#vowel = ['a','e','i','o','u']
+#def to_pig_latin(userInp):
+    #count = 0
+    
+    #words = userInp.split()
+    #for  word in words:
+        #count = 0  
+        #if word[0].lower() in vowel:
+            #result += word+'way'+' '
+                      
+        #elif word[0]!=vowel:
+            #result = ''
+            #for char in word:
+                #for char in vowel:
+                    #break
+                #else:
+                    #result+= char              
+            #elif word[count].lower() in vowel and count != 0:
+            #result += word[result]+'a' + word[:result]+'ay'+' '
+            #elif count != 0 and word[count].lower() in vowel:
+                #result += 'a'+ word[count:]+'ay'+ ' '
+                #break 
+            #return result
+#to_pig_latin(userInp)
+      
+#def to_english(userInp2):
+    #count = 0
+    #result2=''
+    #words = userInp2.split()
+    #for  word in words:
+        #count = 0
+        #if word[0].lower() in vowel:
+            #start = word.find('way')
+            #end=word[0:start]
+            #result2 += end +' '
+        #else:
+            #for char in word:
+                #if char.lower() not in vowel:
+                    #count+=1
+                    
+                #elif word[count].lower() in vowel and count != 0:
+                    #result2 += word[:count]+'a' + word[count:]+'ay'+' '
+                    #start = word.find('ay')
+                    #end=word[0:start]
+                    #results2+=end                  
+    #return result2 
+            
+            
+    
+    
