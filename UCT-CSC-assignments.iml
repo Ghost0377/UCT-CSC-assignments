@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Assignment_8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CSC1016S_Practical_Assignments/Orientation" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Assignment_3" level="project" />
+  </component>
+</module>
